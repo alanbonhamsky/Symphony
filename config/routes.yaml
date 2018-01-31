@@ -2,5 +2,5 @@
 #    path: /
 #    defaults: { _controller: 'App\Controller\DefaultController::index' }
 app_lucky_number:
-    path: /welcome
-    controller: App\Controller\SplashPageController::welcome
+    path: /
+    controller: App\Controller\PagesController::splashPage
